@@ -1,0 +1,1520 @@
+site,code,cover,n_pts,category
+1,AA,0,375,Algal Assemblage
+1,ACB,14,375,Acropora Branching
+1,ACBD,0,375,Acropora Branching Dead
+1,ACD,2,375,Acropora Digitate
+1,ACE,4,375,Acropora Encrusting
+1,ACS,62,375,Acropora Submassive
+1,ACT,4,375,Acropora Tabular
+1,CA,0,375,Coraline Algae
+1,CB,9,375,Coral Branching
+1,CBD,0,375,Coral Branching Dead
+1,CE,4,375,Coral Encrusting
+1,CF,4,375,Coral Foliose
+1,CHL,0,375,Blue Coral
+1,CM,54,375,Coral Massive
+1,CME,0,375,Fire Coral
+1,CMR,1,375,Mushroom Coral
+1,CS,14,375,Coral Submassive
+1,CTU,0,375,Organ Pipe Coral
+1,DC,38,375,Dead Coral
+1,DCA,0,375,Dead Coral with Algae
+1,HA,0,375,Halimeda Algae
+1,MA,0,375,Macroalgae
+1,OT,0,375,Others
+1,R,121,375,Rubble
+1,RCK,8,375,Rock
+1,S,25,375,Sand
+1,SC,4,375,Soft coral
+1,SI,7,375,Silt
+1,SP,0,375,Sponge
+1,TA,0,375,Turf Algae
+1,ZO,0,375,Zoanthids
+2,AA,0,375,Algal Assemblage
+2,ACB,33,375,Acropora Branching
+2,ACBD,3,375,Acropora Branching Dead
+2,ACD,0,375,Acropora Digitate
+2,ACE,0,375,Acropora Encrusting
+2,ACS,93,375,Acropora Submassive
+2,ACT,9,375,Acropora Tabular
+2,CA,0,375,Coraline Algae
+2,CB,141,375,Coral Branching
+2,CBD,26,375,Coral Branching Dead
+2,CE,2,375,Coral Encrusting
+2,CF,23,375,Coral Foliose
+2,CHL,1,375,Blue Coral
+2,CM,36,375,Coral Massive
+2,CME,0,375,Fire Coral
+2,CMR,0,375,Mushroom Coral
+2,CS,0,375,Coral Submassive
+2,CTU,0,375,Organ Pipe Coral
+2,DC,0,375,Dead Coral
+2,DCA,0,375,Dead Coral with Algae
+2,HA,0,375,Halimeda Algae
+2,MA,0,375,Macroalgae
+2,OT,0,375,Others
+2,R,0,375,Rubble
+2,RCK,0,375,Rock
+2,S,5,375,Sand
+2,SC,1,375,Soft coral
+2,SI,0,375,Silt
+2,SP,0,375,Sponge
+2,TA,0,375,Turf Algae
+2,ZO,2,375,Zoanthids
+3,AA,0,375,Algal Assemblage
+3,ACB,206,375,Acropora Branching
+3,ACBD,21,375,Acropora Branching Dead
+3,ACD,0,375,Acropora Digitate
+3,ACE,0,375,Acropora Encrusting
+3,ACS,81,375,Acropora Submassive
+3,ACT,1,375,Acropora Tabular
+3,CA,0,375,Coraline Algae
+3,CB,36,375,Coral Branching
+3,CBD,9,375,Coral Branching Dead
+3,CE,1,375,Coral Encrusting
+3,CF,4,375,Coral Foliose
+3,CHL,0,375,Blue Coral
+3,CM,1,375,Coral Massive
+3,CME,1,375,Fire Coral
+3,CMR,3,375,Mushroom Coral
+3,CS,0,375,Coral Submassive
+3,CTU,0,375,Organ Pipe Coral
+3,DC,0,375,Dead Coral
+3,DCA,5,375,Dead Coral with Algae
+3,HA,0,375,Halimeda Algae
+3,MA,0,375,Macroalgae
+3,OT,0,375,Others
+3,R,0,375,Rubble
+3,RCK,0,375,Rock
+3,S,5,375,Sand
+3,SC,1,375,Soft coral
+3,SI,0,375,Silt
+3,SP,0,375,Sponge
+3,TA,0,375,Turf Algae
+3,ZO,0,375,Zoanthids
+4,AA,0,375,Algal Assemblage
+4,ACB,26,375,Acropora Branching
+4,ACBD,0,375,Acropora Branching Dead
+4,ACD,0,375,Acropora Digitate
+4,ACE,0,375,Acropora Encrusting
+4,ACS,9,375,Acropora Submassive
+4,ACT,0,375,Acropora Tabular
+4,CA,0,375,Coraline Algae
+4,CB,22,375,Coral Branching
+4,CBD,7,375,Coral Branching Dead
+4,CE,0,375,Coral Encrusting
+4,CF,1,375,Coral Foliose
+4,CHL,0,375,Blue Coral
+4,CM,63,375,Coral Massive
+4,CME,1,375,Fire Coral
+4,CMR,0,375,Mushroom Coral
+4,CS,0,375,Coral Submassive
+4,CTU,0,375,Organ Pipe Coral
+4,DC,47,375,Dead Coral
+4,DCA,0,375,Dead Coral with Algae
+4,HA,27,375,Halimeda Algae
+4,MA,18,375,Macroalgae
+4,OT,0,375,Others
+4,R,0,375,Rubble
+4,RCK,0,375,Rock
+4,S,95,375,Sand
+4,SC,0,375,Soft coral
+4,SI,0,375,Silt
+4,SP,0,375,Sponge
+4,TA,59,375,Turf Algae
+4,ZO,0,375,Zoanthids
+5,AA,0,375,Algal Assemblage
+5,ACB,1,375,Acropora Branching
+5,ACBD,0,375,Acropora Branching Dead
+5,ACD,0,375,Acropora Digitate
+5,ACE,1,375,Acropora Encrusting
+5,ACS,0,375,Acropora Submassive
+5,ACT,0,375,Acropora Tabular
+5,CA,0,375,Coraline Algae
+5,CB,4,375,Coral Branching
+5,CBD,0,375,Coral Branching Dead
+5,CE,0,375,Coral Encrusting
+5,CF,0,375,Coral Foliose
+5,CHL,0,375,Blue Coral
+5,CM,5,375,Coral Massive
+5,CME,0,375,Fire Coral
+5,CMR,2,375,Mushroom Coral
+5,CS,0,375,Coral Submassive
+5,CTU,0,375,Organ Pipe Coral
+5,DC,0,375,Dead Coral
+5,DCA,12,375,Dead Coral with Algae
+5,HA,8,375,Halimeda Algae
+5,MA,22,375,Macroalgae
+5,OT,7,375,Others
+5,R,38,375,Rubble
+5,RCK,0,375,Rock
+5,S,247,375,Sand
+5,SC,0,375,Soft coral
+5,SI,0,375,Silt
+5,SP,0,375,Sponge
+5,TA,28,375,Turf Algae
+5,ZO,0,375,Zoanthids
+6,AA,0,375,Algal Assemblage
+6,ACB,197,375,Acropora Branching
+6,ACBD,6,375,Acropora Branching Dead
+6,ACD,0,375,Acropora Digitate
+6,ACE,2,375,Acropora Encrusting
+6,ACS,3,375,Acropora Submassive
+6,ACT,0,375,Acropora Tabular
+6,CA,0,375,Coraline Algae
+6,CB,10,375,Coral Branching
+6,CBD,0,375,Coral Branching Dead
+6,CE,0,375,Coral Encrusting
+6,CF,0,375,Coral Foliose
+6,CHL,0,375,Blue Coral
+6,CM,6,375,Coral Massive
+6,CME,0,375,Fire Coral
+6,CMR,0,375,Mushroom Coral
+6,CS,1,375,Coral Submassive
+6,CTU,0,375,Organ Pipe Coral
+6,DC,8,375,Dead Coral
+6,DCA,8,375,Dead Coral with Algae
+6,HA,0,375,Halimeda Algae
+6,MA,0,375,Macroalgae
+6,OT,0,375,Others
+6,R,111,375,Rubble
+6,RCK,3,375,Rock
+6,S,16,375,Sand
+6,SC,1,375,Soft coral
+6,SI,0,375,Silt
+6,SP,3,375,Sponge
+6,TA,0,375,Turf Algae
+6,ZO,0,375,Zoanthids
+7,AA,0,375,Algal Assemblage
+7,ACB,0,375,Acropora Branching
+7,ACBD,0,375,Acropora Branching Dead
+7,ACD,0,375,Acropora Digitate
+7,ACE,0,375,Acropora Encrusting
+7,ACS,0,375,Acropora Submassive
+7,ACT,0,375,Acropora Tabular
+7,CA,0,375,Coraline Algae
+7,CB,49,375,Coral Branching
+7,CBD,21,375,Coral Branching Dead
+7,CE,0,375,Coral Encrusting
+7,CF,2,375,Coral Foliose
+7,CHL,0,375,Blue Coral
+7,CM,91,375,Coral Massive
+7,CME,0,375,Fire Coral
+7,CMR,2,375,Mushroom Coral
+7,CS,2,375,Coral Submassive
+7,CTU,0,375,Organ Pipe Coral
+7,DC,31,375,Dead Coral
+7,DCA,0,375,Dead Coral with Algae
+7,HA,2,375,Halimeda Algae
+7,MA,8,375,Macroalgae
+7,OT,0,375,Others
+7,R,73,375,Rubble
+7,RCK,0,375,Rock
+7,S,66,375,Sand
+7,SC,0,375,Soft coral
+7,SI,28,375,Silt
+7,SP,0,375,Sponge
+7,TA,0,375,Turf Algae
+7,ZO,0,375,Zoanthids
+8,AA,0,375,Algal Assemblage
+8,ACB,0,375,Acropora Branching
+8,ACBD,0,375,Acropora Branching Dead
+8,ACD,0,375,Acropora Digitate
+8,ACE,0,375,Acropora Encrusting
+8,ACS,0,375,Acropora Submassive
+8,ACT,0,375,Acropora Tabular
+8,CA,0,375,Coraline Algae
+8,CB,3,375,Coral Branching
+8,CBD,3,375,Coral Branching Dead
+8,CE,0,375,Coral Encrusting
+8,CF,0,375,Coral Foliose
+8,CHL,0,375,Blue Coral
+8,CM,14,375,Coral Massive
+8,CME,0,375,Fire Coral
+8,CMR,0,375,Mushroom Coral
+8,CS,4,375,Coral Submassive
+8,CTU,0,375,Organ Pipe Coral
+8,DC,28,375,Dead Coral
+8,DCA,0,375,Dead Coral with Algae
+8,HA,64,375,Halimeda Algae
+8,MA,9,375,Macroalgae
+8,OT,0,375,Others
+8,R,73,375,Rubble
+8,RCK,0,375,Rock
+8,S,111,375,Sand
+8,SC,0,375,Soft coral
+8,SI,66,375,Silt
+8,SP,0,375,Sponge
+8,TA,0,375,Turf Algae
+8,ZO,0,375,Zoanthids
+9,AA,0,375,Algal Assemblage
+9,ACB,33,375,Acropora Branching
+9,ACBD,61,375,Acropora Branching Dead
+9,ACD,0,375,Acropora Digitate
+9,ACE,0,375,Acropora Encrusting
+9,ACS,0,375,Acropora Submassive
+9,ACT,0,375,Acropora Tabular
+9,CA,0,375,Coraline Algae
+9,CB,36,375,Coral Branching
+9,CBD,35,375,Coral Branching Dead
+9,CE,0,375,Coral Encrusting
+9,CF,0,375,Coral Foliose
+9,CHL,0,375,Blue Coral
+9,CM,46,375,Coral Massive
+9,CME,0,375,Fire Coral
+9,CMR,4,375,Mushroom Coral
+9,CS,12,375,Coral Submassive
+9,CTU,0,375,Organ Pipe Coral
+9,DC,30,375,Dead Coral
+9,DCA,0,375,Dead Coral with Algae
+9,HA,17,375,Halimeda Algae
+9,MA,12,375,Macroalgae
+9,OT,0,375,Others
+9,R,34,375,Rubble
+9,RCK,0,375,Rock
+9,S,44,375,Sand
+9,SC,0,375,Soft coral
+9,SI,10,375,Silt
+9,SP,0,375,Sponge
+9,TA,0,375,Turf Algae
+9,ZO,1,375,Zoanthids
+10,AA,0,375,Algal Assemblage
+10,ACB,12,375,Acropora Branching
+10,ACBD,12,375,Acropora Branching Dead
+10,ACD,0,375,Acropora Digitate
+10,ACE,0,375,Acropora Encrusting
+10,ACS,15,375,Acropora Submassive
+10,ACT,11,375,Acropora Tabular
+10,CA,0,375,Coraline Algae
+10,CB,93,375,Coral Branching
+10,CBD,85,375,Coral Branching Dead
+10,CE,0,375,Coral Encrusting
+10,CF,0,375,Coral Foliose
+10,CHL,0,375,Blue Coral
+10,CM,83,375,Coral Massive
+10,CME,0,375,Fire Coral
+10,CMR,0,375,Mushroom Coral
+10,CS,0,375,Coral Submassive
+10,CTU,0,375,Organ Pipe Coral
+10,DC,30,375,Dead Coral
+10,DCA,0,375,Dead Coral with Algae
+10,HA,0,375,Halimeda Algae
+10,MA,0,375,Macroalgae
+10,OT,0,375,Others
+10,R,0,375,Rubble
+10,RCK,0,375,Rock
+10,S,26,375,Sand
+10,SC,1,375,Soft coral
+10,SI,5,375,Silt
+10,SP,0,375,Sponge
+10,TA,0,375,Turf Algae
+10,ZO,2,375,Zoanthids
+11,AA,0,375,Algal Assemblage
+11,ACB,2,375,Acropora Branching
+11,ACBD,0,375,Acropora Branching Dead
+11,ACD,2,375,Acropora Digitate
+11,ACE,2,375,Acropora Encrusting
+11,ACS,4,375,Acropora Submassive
+11,ACT,3,375,Acropora Tabular
+11,CA,2,375,Coraline Algae
+11,CB,15,375,Coral Branching
+11,CBD,1,375,Coral Branching Dead
+11,CE,3,375,Coral Encrusting
+11,CF,1,375,Coral Foliose
+11,CHL,0,375,Blue Coral
+11,CM,133,375,Coral Massive
+11,CME,0,375,Fire Coral
+11,CMR,2,375,Mushroom Coral
+11,CS,4,375,Coral Submassive
+11,CTU,0,375,Organ Pipe Coral
+11,DC,31,375,Dead Coral
+11,DCA,52,375,Dead Coral with Algae
+11,HA,0,375,Halimeda Algae
+11,MA,0,375,Macroalgae
+11,OT,0,375,Others
+11,R,27,375,Rubble
+11,RCK,2,375,Rock
+11,S,19,375,Sand
+11,SC,64,375,Soft coral
+11,SI,5,375,Silt
+11,SP,0,375,Sponge
+11,TA,1,375,Turf Algae
+11,ZO,0,375,Zoanthids
+12,AA,0,375,Algal Assemblage
+12,ACB,32,375,Acropora Branching
+12,ACBD,0,375,Acropora Branching Dead
+12,ACD,1,375,Acropora Digitate
+12,ACE,1,375,Acropora Encrusting
+12,ACS,5,375,Acropora Submassive
+12,ACT,1,375,Acropora Tabular
+12,CA,0,375,Coraline Algae
+12,CB,28,375,Coral Branching
+12,CBD,0,375,Coral Branching Dead
+12,CE,0,375,Coral Encrusting
+12,CF,3,375,Coral Foliose
+12,CHL,0,375,Blue Coral
+12,CM,31,375,Coral Massive
+12,CME,0,375,Fire Coral
+12,CMR,6,375,Mushroom Coral
+12,CS,0,375,Coral Submassive
+12,CTU,0,375,Organ Pipe Coral
+12,DC,6,375,Dead Coral
+12,DCA,31,375,Dead Coral with Algae
+12,HA,0,375,Halimeda Algae
+12,MA,6,375,Macroalgae
+12,OT,0,375,Others
+12,R,108,375,Rubble
+12,RCK,8,375,Rock
+12,S,79,375,Sand
+12,SC,29,375,Soft coral
+12,SI,0,375,Silt
+12,SP,0,375,Sponge
+12,TA,0,375,Turf Algae
+12,ZO,0,375,Zoanthids
+13,AA,1,375,Algal Assemblage
+13,ACB,11,375,Acropora Branching
+13,ACBD,0,375,Acropora Branching Dead
+13,ACD,2,375,Acropora Digitate
+13,ACE,1,375,Acropora Encrusting
+13,ACS,3,375,Acropora Submassive
+13,ACT,4,375,Acropora Tabular
+13,CA,0,375,Coraline Algae
+13,CB,31,375,Coral Branching
+13,CBD,0,375,Coral Branching Dead
+13,CE,0,375,Coral Encrusting
+13,CF,8,375,Coral Foliose
+13,CHL,0,375,Blue Coral
+13,CM,5,375,Coral Massive
+13,CME,0,375,Fire Coral
+13,CMR,2,375,Mushroom Coral
+13,CS,48,375,Coral Submassive
+13,CTU,0,375,Organ Pipe Coral
+13,DC,9,375,Dead Coral
+13,DCA,25,375,Dead Coral with Algae
+13,HA,0,375,Halimeda Algae
+13,MA,6,375,Macroalgae
+13,OT,3,375,Others
+13,R,32,375,Rubble
+13,RCK,6,375,Rock
+13,S,175,375,Sand
+13,SC,0,375,Soft coral
+13,SI,0,375,Silt
+13,SP,0,375,Sponge
+13,TA,3,375,Turf Algae
+13,ZO,0,375,Zoanthids
+14,AA,0,375,Algal Assemblage
+14,ACB,1,375,Acropora Branching
+14,ACBD,3,375,Acropora Branching Dead
+14,ACD,0,375,Acropora Digitate
+14,ACE,0,375,Acropora Encrusting
+14,ACS,0,375,Acropora Submassive
+14,ACT,0,375,Acropora Tabular
+14,CA,0,375,Coraline Algae
+14,CB,0,375,Coral Branching
+14,CBD,0,375,Coral Branching Dead
+14,CE,1,375,Coral Encrusting
+14,CF,9,375,Coral Foliose
+14,CHL,0,375,Blue Coral
+14,CM,7,375,Coral Massive
+14,CME,0,375,Fire Coral
+14,CMR,0,375,Mushroom Coral
+14,CS,0,375,Coral Submassive
+14,CTU,0,375,Organ Pipe Coral
+14,DC,1,375,Dead Coral
+14,DCA,6,375,Dead Coral with Algae
+14,HA,17,375,Halimeda Algae
+14,MA,68,375,Macroalgae
+14,OT,1,375,Others
+14,R,34,375,Rubble
+14,RCK,0,375,Rock
+14,S,214,375,Sand
+14,SC,4,375,Soft coral
+14,SI,0,375,Silt
+14,SP,0,375,Sponge
+14,TA,9,375,Turf Algae
+14,ZO,0,375,Zoanthids
+15,AA,0,375,Algal Assemblage
+15,ACB,10,375,Acropora Branching
+15,ACBD,14,375,Acropora Branching Dead
+15,ACD,0,375,Acropora Digitate
+15,ACE,0,375,Acropora Encrusting
+15,ACS,1,375,Acropora Submassive
+15,ACT,48,375,Acropora Tabular
+15,CA,0,375,Coraline Algae
+15,CB,17,375,Coral Branching
+15,CBD,0,375,Coral Branching Dead
+15,CE,12,375,Coral Encrusting
+15,CF,0,375,Coral Foliose
+15,CHL,0,375,Blue Coral
+15,CM,172,375,Coral Massive
+15,CME,0,375,Fire Coral
+15,CMR,11,375,Mushroom Coral
+15,CS,2,375,Coral Submassive
+15,CTU,0,375,Organ Pipe Coral
+15,DC,86,375,Dead Coral
+15,DCA,0,375,Dead Coral with Algae
+15,HA,0,375,Halimeda Algae
+15,MA,0,375,Macroalgae
+15,OT,0,375,Others
+15,R,0,375,Rubble
+15,RCK,0,375,Rock
+15,S,0,375,Sand
+15,SC,2,375,Soft coral
+15,SI,0,375,Silt
+15,SP,0,375,Sponge
+15,TA,0,375,Turf Algae
+15,ZO,0,375,Zoanthids
+16,AA,0,375,Algal Assemblage
+16,ACB,9,375,Acropora Branching
+16,ACBD,28,375,Acropora Branching Dead
+16,ACD,0,375,Acropora Digitate
+16,ACE,0,375,Acropora Encrusting
+16,ACS,37,375,Acropora Submassive
+16,ACT,25,375,Acropora Tabular
+16,CA,0,375,Coraline Algae
+16,CB,2,375,Coral Branching
+16,CBD,0,375,Coral Branching Dead
+16,CE,40,375,Coral Encrusting
+16,CF,0,375,Coral Foliose
+16,CHL,0,375,Blue Coral
+16,CM,78,375,Coral Massive
+16,CME,5,375,Fire Coral
+16,CMR,4,375,Mushroom Coral
+16,CS,1,375,Coral Submassive
+16,CTU,0,375,Organ Pipe Coral
+16,DC,76,375,Dead Coral
+16,DCA,0,375,Dead Coral with Algae
+16,HA,14,375,Halimeda Algae
+16,MA,0,375,Macroalgae
+16,OT,6,375,Others
+16,R,0,375,Rubble
+16,RCK,0,375,Rock
+16,S,0,375,Sand
+16,SC,50,375,Soft coral
+16,SI,0,375,Silt
+16,SP,0,375,Sponge
+16,TA,0,375,Turf Algae
+16,ZO,0,375,Zoanthids
+17,AA,0,375,Algal Assemblage
+17,ACB,42,375,Acropora Branching
+17,ACBD,11,375,Acropora Branching Dead
+17,ACD,0,375,Acropora Digitate
+17,ACE,0,375,Acropora Encrusting
+17,ACS,4,375,Acropora Submassive
+17,ACT,3,375,Acropora Tabular
+17,CA,22,375,Coraline Algae
+17,CB,38,375,Coral Branching
+17,CBD,41,375,Coral Branching Dead
+17,CE,1,375,Coral Encrusting
+17,CF,5,375,Coral Foliose
+17,CHL,0,375,Blue Coral
+17,CM,28,375,Coral Massive
+17,CME,0,375,Fire Coral
+17,CMR,2,375,Mushroom Coral
+17,CS,0,375,Coral Submassive
+17,CTU,0,375,Organ Pipe Coral
+17,DC,23,375,Dead Coral
+17,DCA,0,375,Dead Coral with Algae
+17,HA,50,375,Halimeda Algae
+17,MA,5,375,Macroalgae
+17,OT,0,375,Others
+17,R,12,375,Rubble
+17,RCK,0,375,Rock
+17,S,46,375,Sand
+17,SC,0,375,Soft coral
+17,SI,37,375,Silt
+17,SP,3,375,Sponge
+17,TA,0,375,Turf Algae
+17,ZO,2,375,Zoanthids
+18,AA,0,375,Algal Assemblage
+18,ACB,11,375,Acropora Branching
+18,ACBD,22,375,Acropora Branching Dead
+18,ACD,0,375,Acropora Digitate
+18,ACE,1,375,Acropora Encrusting
+18,ACS,0,375,Acropora Submassive
+18,ACT,0,375,Acropora Tabular
+18,CA,0,375,Coraline Algae
+18,CB,0,375,Coral Branching
+18,CBD,9,375,Coral Branching Dead
+18,CE,0,375,Coral Encrusting
+18,CF,0,375,Coral Foliose
+18,CHL,0,375,Blue Coral
+18,CM,92,375,Coral Massive
+18,CME,0,375,Fire Coral
+18,CMR,0,375,Mushroom Coral
+18,CS,0,375,Coral Submassive
+18,CTU,0,375,Organ Pipe Coral
+18,DC,45,375,Dead Coral
+18,DCA,0,375,Dead Coral with Algae
+18,HA,21,375,Halimeda Algae
+18,MA,19,375,Macroalgae
+18,OT,0,375,Others
+18,R,50,375,Rubble
+18,RCK,0,375,Rock
+18,S,102,375,Sand
+18,SC,0,375,Soft coral
+18,SI,3,375,Silt
+18,SP,0,375,Sponge
+18,TA,0,375,Turf Algae
+18,ZO,0,375,Zoanthids
+19,AA,0,375,Algal Assemblage
+19,ACB,10,375,Acropora Branching
+19,ACBD,6,375,Acropora Branching Dead
+19,ACD,1,375,Acropora Digitate
+19,ACE,0,375,Acropora Encrusting
+19,ACS,3,375,Acropora Submassive
+19,ACT,11,375,Acropora Tabular
+19,CA,1,375,Coraline Algae
+19,CB,26,375,Coral Branching
+19,CBD,4,375,Coral Branching Dead
+19,CE,2,375,Coral Encrusting
+19,CF,0,375,Coral Foliose
+19,CHL,0,375,Blue Coral
+19,CM,76,375,Coral Massive
+19,CME,4,375,Fire Coral
+19,CMR,3,375,Mushroom Coral
+19,CS,7,375,Coral Submassive
+19,CTU,0,375,Organ Pipe Coral
+19,DC,10,375,Dead Coral
+19,DCA,74,375,Dead Coral with Algae
+19,HA,0,375,Halimeda Algae
+19,MA,0,375,Macroalgae
+19,OT,0,375,Others
+19,R,64,375,Rubble
+19,RCK,3,375,Rock
+19,S,43,375,Sand
+19,SC,24,375,Soft coral
+19,SI,0,375,Silt
+19,SP,1,375,Sponge
+19,TA,2,375,Turf Algae
+19,ZO,0,375,Zoanthids
+20,AA,1,375,Algal Assemblage
+20,ACB,4,375,Acropora Branching
+20,ACBD,3,375,Acropora Branching Dead
+20,ACD,4,375,Acropora Digitate
+20,ACE,11,375,Acropora Encrusting
+20,ACS,4,375,Acropora Submassive
+20,ACT,12,375,Acropora Tabular
+20,CA,3,375,Coraline Algae
+20,CB,4,375,Coral Branching
+20,CBD,3,375,Coral Branching Dead
+20,CE,20,375,Coral Encrusting
+20,CF,1,375,Coral Foliose
+20,CHL,0,375,Blue Coral
+20,CM,104,375,Coral Massive
+20,CME,0,375,Fire Coral
+20,CMR,9,375,Mushroom Coral
+20,CS,10,375,Coral Submassive
+20,CTU,0,375,Organ Pipe Coral
+20,DC,11,375,Dead Coral
+20,DCA,94,375,Dead Coral with Algae
+20,HA,12,375,Halimeda Algae
+20,MA,0,375,Macroalgae
+20,OT,0,375,Others
+20,R,43,375,Rubble
+20,RCK,8,375,Rock
+20,S,4,375,Sand
+20,SC,7,375,Soft coral
+20,SI,0,375,Silt
+20,SP,0,375,Sponge
+20,TA,2,375,Turf Algae
+20,ZO,1,375,Zoanthids
+21,AA,0,375,Algal Assemblage
+21,ACB,8,375,Acropora Branching
+21,ACBD,20,375,Acropora Branching Dead
+21,ACD,3,375,Acropora Digitate
+21,ACE,0,375,Acropora Encrusting
+21,ACS,0,375,Acropora Submassive
+21,ACT,3,375,Acropora Tabular
+21,CA,0,375,Coraline Algae
+21,CB,93,375,Coral Branching
+21,CBD,15,375,Coral Branching Dead
+21,CE,16,375,Coral Encrusting
+21,CF,3,375,Coral Foliose
+21,CHL,0,375,Blue Coral
+21,CM,30,375,Coral Massive
+21,CME,3,375,Fire Coral
+21,CMR,1,375,Mushroom Coral
+21,CS,9,375,Coral Submassive
+21,CTU,0,375,Organ Pipe Coral
+21,DC,5,375,Dead Coral
+21,DCA,18,375,Dead Coral with Algae
+21,HA,0,375,Halimeda Algae
+21,MA,0,375,Macroalgae
+21,OT,0,375,Others
+21,R,47,375,Rubble
+21,RCK,2,375,Rock
+21,S,64,375,Sand
+21,SC,0,375,Soft coral
+21,SI,0,375,Silt
+21,SP,1,375,Sponge
+21,TA,34,375,Turf Algae
+21,ZO,0,375,Zoanthids
+22,AA,15,375,Algal Assemblage
+22,ACB,12,375,Acropora Branching
+22,ACBD,0,375,Acropora Branching Dead
+22,ACD,1,375,Acropora Digitate
+22,ACE,1,375,Acropora Encrusting
+22,ACS,0,375,Acropora Submassive
+22,ACT,0,375,Acropora Tabular
+22,CA,1,375,Coraline Algae
+22,CB,24,375,Coral Branching
+22,CBD,0,375,Coral Branching Dead
+22,CE,1,375,Coral Encrusting
+22,CF,0,375,Coral Foliose
+22,CHL,0,375,Blue Coral
+22,CM,97,375,Coral Massive
+22,CME,0,375,Fire Coral
+22,CMR,0,375,Mushroom Coral
+22,CS,0,375,Coral Submassive
+22,CTU,0,375,Organ Pipe Coral
+22,DC,6,375,Dead Coral
+22,DCA,92,375,Dead Coral with Algae
+22,HA,14,375,Halimeda Algae
+22,MA,12,375,Macroalgae
+22,OT,1,375,Others
+22,R,44,375,Rubble
+22,RCK,5,375,Rock
+22,S,46,375,Sand
+22,SC,0,375,Soft coral
+22,SI,0,375,Silt
+22,SP,1,375,Sponge
+22,TA,2,375,Turf Algae
+22,ZO,0,375,Zoanthids
+23,AA,9,375,Algal Assemblage
+23,ACB,125,375,Acropora Branching
+23,ACBD,32,375,Acropora Branching Dead
+23,ACD,0,375,Acropora Digitate
+23,ACE,0,375,Acropora Encrusting
+23,ACS,1,375,Acropora Submassive
+23,ACT,1,375,Acropora Tabular
+23,CA,1,375,Coraline Algae
+23,CB,16,375,Coral Branching
+23,CBD,0,375,Coral Branching Dead
+23,CE,0,375,Coral Encrusting
+23,CF,0,375,Coral Foliose
+23,CHL,0,375,Blue Coral
+23,CM,5,375,Coral Massive
+23,CME,0,375,Fire Coral
+23,CMR,2,375,Mushroom Coral
+23,CS,0,375,Coral Submassive
+23,CTU,0,375,Organ Pipe Coral
+23,DC,0,375,Dead Coral
+23,DCA,28,375,Dead Coral with Algae
+23,HA,0,375,Halimeda Algae
+23,MA,6,375,Macroalgae
+23,OT,0,375,Others
+23,R,116,375,Rubble
+23,RCK,4,375,Rock
+23,S,27,375,Sand
+23,SC,1,375,Soft coral
+23,SI,0,375,Silt
+23,SP,1,375,Sponge
+23,TA,0,375,Turf Algae
+23,ZO,0,375,Zoanthids
+24,AA,0,375,Algal Assemblage
+24,ACB,0,375,Acropora Branching
+24,ACBD,0,375,Acropora Branching Dead
+24,ACD,0,375,Acropora Digitate
+24,ACE,0,375,Acropora Encrusting
+24,ACS,0,375,Acropora Submassive
+24,ACT,1,375,Acropora Tabular
+24,CA,1,375,Coraline Algae
+24,CB,72,375,Coral Branching
+24,CBD,41,375,Coral Branching Dead
+24,CE,0,375,Coral Encrusting
+24,CF,0,375,Coral Foliose
+24,CHL,0,375,Blue Coral
+24,CM,61,375,Coral Massive
+24,CME,0,375,Fire Coral
+24,CMR,0,375,Mushroom Coral
+24,CS,1,375,Coral Submassive
+24,CTU,9,375,Organ Pipe Coral
+24,DC,7,375,Dead Coral
+24,DCA,9,375,Dead Coral with Algae
+24,HA,0,375,Halimeda Algae
+24,MA,0,375,Macroalgae
+24,OT,0,375,Others
+24,R,87,375,Rubble
+24,RCK,35,375,Rock
+24,S,47,375,Sand
+24,SC,1,375,Soft coral
+24,SI,0,375,Silt
+24,SP,3,375,Sponge
+24,TA,0,375,Turf Algae
+24,ZO,0,375,Zoanthids
+25,AA,0,375,Algal Assemblage
+25,ACB,0,375,Acropora Branching
+25,ACBD,0,375,Acropora Branching Dead
+25,ACD,0,375,Acropora Digitate
+25,ACE,0,375,Acropora Encrusting
+25,ACS,0,375,Acropora Submassive
+25,ACT,0,375,Acropora Tabular
+25,CA,3,375,Coraline Algae
+25,CB,63,375,Coral Branching
+25,CBD,31,375,Coral Branching Dead
+25,CE,3,375,Coral Encrusting
+25,CF,2,375,Coral Foliose
+25,CHL,0,375,Blue Coral
+25,CM,66,375,Coral Massive
+25,CME,0,375,Fire Coral
+25,CMR,1,375,Mushroom Coral
+25,CS,2,375,Coral Submassive
+25,CTU,0,375,Organ Pipe Coral
+25,DC,5,375,Dead Coral
+25,DCA,1,375,Dead Coral with Algae
+25,HA,0,375,Halimeda Algae
+25,MA,1,375,Macroalgae
+25,OT,0,375,Others
+25,R,114,375,Rubble
+25,RCK,31,375,Rock
+25,S,50,375,Sand
+25,SC,1,375,Soft coral
+25,SI,0,375,Silt
+25,SP,1,375,Sponge
+25,TA,0,375,Turf Algae
+25,ZO,0,375,Zoanthids
+26,AA,0,375,Algal Assemblage
+26,ACB,25,375,Acropora Branching
+26,ACBD,0,375,Acropora Branching Dead
+26,ACD,4,375,Acropora Digitate
+26,ACE,29,375,Acropora Encrusting
+26,ACS,14,375,Acropora Submassive
+26,ACT,16,375,Acropora Tabular
+26,CA,1,375,Coraline Algae
+26,CB,35,375,Coral Branching
+26,CBD,4,375,Coral Branching Dead
+26,CE,0,375,Coral Encrusting
+26,CF,11,375,Coral Foliose
+26,CHL,0,375,Blue Coral
+26,CM,68,375,Coral Massive
+26,CME,0,375,Fire Coral
+26,CMR,4,375,Mushroom Coral
+26,CS,3,375,Coral Submassive
+26,CTU,0,375,Organ Pipe Coral
+26,DC,24,375,Dead Coral
+26,DCA,9,375,Dead Coral with Algae
+26,HA,0,375,Halimeda Algae
+26,MA,0,375,Macroalgae
+26,OT,0,375,Others
+26,R,39,375,Rubble
+26,RCK,20,375,Rock
+26,S,57,375,Sand
+26,SC,11,375,Soft coral
+26,SI,0,375,Silt
+26,SP,0,375,Sponge
+26,TA,1,375,Turf Algae
+26,ZO,0,375,Zoanthids
+27,AA,0,375,Algal Assemblage
+27,ACB,6,375,Acropora Branching
+27,ACBD,0,375,Acropora Branching Dead
+27,ACD,0,375,Acropora Digitate
+27,ACE,0,375,Acropora Encrusting
+27,ACS,0,375,Acropora Submassive
+27,ACT,10,375,Acropora Tabular
+27,CA,0,375,Coraline Algae
+27,CB,239,375,Coral Branching
+27,CBD,64,375,Coral Branching Dead
+27,CE,0,375,Coral Encrusting
+27,CF,1,375,Coral Foliose
+27,CHL,0,375,Blue Coral
+27,CM,23,375,Coral Massive
+27,CME,0,375,Fire Coral
+27,CMR,20,375,Mushroom Coral
+27,CS,0,375,Coral Submassive
+27,CTU,0,375,Organ Pipe Coral
+27,DC,7,375,Dead Coral
+27,DCA,0,375,Dead Coral with Algae
+27,HA,0,375,Halimeda Algae
+27,MA,0,375,Macroalgae
+27,OT,1,375,Others
+27,R,0,375,Rubble
+27,RCK,0,375,Rock
+27,S,3,375,Sand
+27,SC,1,375,Soft coral
+27,SI,0,375,Silt
+27,SP,0,375,Sponge
+27,TA,0,375,Turf Algae
+27,ZO,0,375,Zoanthids
+28,AA,0,375,Algal Assemblage
+28,ACB,147,375,Acropora Branching
+28,ACBD,25,375,Acropora Branching Dead
+28,ACD,0,375,Acropora Digitate
+28,ACE,0,375,Acropora Encrusting
+28,ACS,5,375,Acropora Submassive
+28,ACT,3,375,Acropora Tabular
+28,CA,0,375,Coraline Algae
+28,CB,84,375,Coral Branching
+28,CBD,32,375,Coral Branching Dead
+28,CE,18,375,Coral Encrusting
+28,CF,7,375,Coral Foliose
+28,CHL,0,375,Blue Coral
+28,CM,23,375,Coral Massive
+28,CME,0,375,Fire Coral
+28,CMR,1,375,Mushroom Coral
+28,CS,0,375,Coral Submassive
+28,CTU,0,375,Organ Pipe Coral
+28,DC,17,375,Dead Coral
+28,DCA,0,375,Dead Coral with Algae
+28,HA,0,375,Halimeda Algae
+28,MA,4,375,Macroalgae
+28,OT,1,375,Others
+28,R,1,375,Rubble
+28,RCK,0,375,Rock
+28,S,1,375,Sand
+28,SC,0,375,Soft coral
+28,SI,0,375,Silt
+28,SP,5,375,Sponge
+28,TA,0,375,Turf Algae
+28,ZO,1,375,Zoanthids
+29,AA,0,375,Algal Assemblage
+29,ACB,114,375,Acropora Branching
+29,ACBD,32,375,Acropora Branching Dead
+29,ACD,0,375,Acropora Digitate
+29,ACE,0,375,Acropora Encrusting
+29,ACS,0,375,Acropora Submassive
+29,ACT,8,375,Acropora Tabular
+29,CA,0,375,Coraline Algae
+29,CB,24,375,Coral Branching
+29,CBD,14,375,Coral Branching Dead
+29,CE,1,375,Coral Encrusting
+29,CF,16,375,Coral Foliose
+29,CHL,0,375,Blue Coral
+29,CM,35,375,Coral Massive
+29,CME,0,375,Fire Coral
+29,CMR,2,375,Mushroom Coral
+29,CS,0,375,Coral Submassive
+29,CTU,0,375,Organ Pipe Coral
+29,DC,20,375,Dead Coral
+29,DCA,0,375,Dead Coral with Algae
+29,HA,1,375,Halimeda Algae
+29,MA,27,375,Macroalgae
+29,OT,0,375,Others
+29,R,4,375,Rubble
+29,RCK,0,375,Rock
+29,S,65,375,Sand
+29,SC,0,375,Soft coral
+29,SI,0,375,Silt
+29,SP,0,375,Sponge
+29,TA,0,375,Turf Algae
+29,ZO,12,375,Zoanthids
+30,AA,1,375,Algal Assemblage
+30,ACB,25,375,Acropora Branching
+30,ACBD,4,375,Acropora Branching Dead
+30,ACD,0,375,Acropora Digitate
+30,ACE,10,375,Acropora Encrusting
+30,ACS,32,375,Acropora Submassive
+30,ACT,6,375,Acropora Tabular
+30,CA,1,375,Coraline Algae
+30,CB,4,375,Coral Branching
+30,CBD,0,375,Coral Branching Dead
+30,CE,8,375,Coral Encrusting
+30,CF,1,375,Coral Foliose
+30,CHL,0,375,Blue Coral
+30,CM,42,375,Coral Massive
+30,CME,0,375,Fire Coral
+30,CMR,1,375,Mushroom Coral
+30,CS,2,375,Coral Submassive
+30,CTU,1,375,Organ Pipe Coral
+30,DC,6,375,Dead Coral
+30,DCA,10,375,Dead Coral with Algae
+30,HA,0,375,Halimeda Algae
+30,MA,1,375,Macroalgae
+30,OT,0,375,Others
+30,R,45,375,Rubble
+30,RCK,11,375,Rock
+30,S,125,375,Sand
+30,SC,17,375,Soft coral
+30,SI,0,375,Silt
+30,SP,8,375,Sponge
+30,TA,14,375,Turf Algae
+30,ZO,0,375,Zoanthids
+31,AA,0,375,Algal Assemblage
+31,ACB,0,375,Acropora Branching
+31,ACBD,0,375,Acropora Branching Dead
+31,ACD,0,375,Acropora Digitate
+31,ACE,0,375,Acropora Encrusting
+31,ACS,0,375,Acropora Submassive
+31,ACT,0,375,Acropora Tabular
+31,CA,0,375,Coraline Algae
+31,CB,1,375,Coral Branching
+31,CBD,0,375,Coral Branching Dead
+31,CE,0,375,Coral Encrusting
+31,CF,1,375,Coral Foliose
+31,CHL,0,375,Blue Coral
+31,CM,14,375,Coral Massive
+31,CME,0,375,Fire Coral
+31,CMR,0,375,Mushroom Coral
+31,CS,0,375,Coral Submassive
+31,CTU,0,375,Organ Pipe Coral
+31,DC,0,375,Dead Coral
+31,DCA,5,375,Dead Coral with Algae
+31,HA,12,375,Halimeda Algae
+31,MA,22,375,Macroalgae
+31,OT,1,375,Others
+31,R,5,375,Rubble
+31,RCK,0,375,Rock
+31,S,287,375,Sand
+31,SC,0,375,Soft coral
+31,SI,0,375,Silt
+31,SP,0,375,Sponge
+31,TA,27,375,Turf Algae
+31,ZO,0,375,Zoanthids
+32,AA,0,375,Algal Assemblage
+32,ACB,4,375,Acropora Branching
+32,ACBD,0,375,Acropora Branching Dead
+32,ACD,0,375,Acropora Digitate
+32,ACE,0,375,Acropora Encrusting
+32,ACS,0,375,Acropora Submassive
+32,ACT,0,375,Acropora Tabular
+32,CA,0,375,Coraline Algae
+32,CB,168,375,Coral Branching
+32,CBD,66,375,Coral Branching Dead
+32,CE,0,375,Coral Encrusting
+32,CF,1,375,Coral Foliose
+32,CHL,0,375,Blue Coral
+32,CM,19,375,Coral Massive
+32,CME,0,375,Fire Coral
+32,CMR,1,375,Mushroom Coral
+32,CS,0,375,Coral Submassive
+32,CTU,0,375,Organ Pipe Coral
+32,DC,14,375,Dead Coral
+32,DCA,0,375,Dead Coral with Algae
+32,HA,0,375,Halimeda Algae
+32,MA,0,375,Macroalgae
+32,OT,16,375,Others
+32,R,7,375,Rubble
+32,RCK,0,375,Rock
+32,S,47,375,Sand
+32,SC,9,375,Soft coral
+32,SI,0,375,Silt
+32,SP,7,375,Sponge
+32,TA,0,375,Turf Algae
+32,ZO,16,375,Zoanthids
+33,AA,0,375,Algal Assemblage
+33,ACB,7,375,Acropora Branching
+33,ACBD,0,375,Acropora Branching Dead
+33,ACD,0,375,Acropora Digitate
+33,ACE,0,375,Acropora Encrusting
+33,ACS,0,375,Acropora Submassive
+33,ACT,4,375,Acropora Tabular
+33,CA,0,375,Coraline Algae
+33,CB,40,375,Coral Branching
+33,CBD,16,375,Coral Branching Dead
+33,CE,0,375,Coral Encrusting
+33,CF,0,375,Coral Foliose
+33,CHL,0,375,Blue Coral
+33,CM,151,375,Coral Massive
+33,CME,0,375,Fire Coral
+33,CMR,1,375,Mushroom Coral
+33,CS,0,375,Coral Submassive
+33,CTU,0,375,Organ Pipe Coral
+33,DC,45,375,Dead Coral
+33,DCA,0,375,Dead Coral with Algae
+33,HA,2,375,Halimeda Algae
+33,MA,0,375,Macroalgae
+33,OT,1,375,Others
+33,R,1,375,Rubble
+33,RCK,0,375,Rock
+33,S,79,375,Sand
+33,SC,0,375,Soft coral
+33,SI,0,375,Silt
+33,SP,0,375,Sponge
+33,TA,26,375,Turf Algae
+33,ZO,2,375,Zoanthids
+34,AA,1,375,Algal Assemblage
+34,ACB,51,375,Acropora Branching
+34,ACBD,11,375,Acropora Branching Dead
+34,ACD,0,375,Acropora Digitate
+34,ACE,5,375,Acropora Encrusting
+34,ACS,13,375,Acropora Submassive
+34,ACT,3,375,Acropora Tabular
+34,CA,4,375,Coraline Algae
+34,CB,54,375,Coral Branching
+34,CBD,4,375,Coral Branching Dead
+34,CE,0,375,Coral Encrusting
+34,CF,7,375,Coral Foliose
+34,CHL,0,375,Blue Coral
+34,CM,91,375,Coral Massive
+34,CME,1,375,Fire Coral
+34,CMR,3,375,Mushroom Coral
+34,CS,5,375,Coral Submassive
+34,CTU,0,375,Organ Pipe Coral
+34,DC,5,375,Dead Coral
+34,DCA,33,375,Dead Coral with Algae
+34,HA,0,375,Halimeda Algae
+34,MA,1,375,Macroalgae
+34,OT,0,375,Others
+34,R,43,375,Rubble
+34,RCK,10,375,Rock
+34,S,17,375,Sand
+34,SC,12,375,Soft coral
+34,SI,0,375,Silt
+34,SP,1,375,Sponge
+34,TA,0,375,Turf Algae
+34,ZO,0,375,Zoanthids
+35,AA,0,375,Algal Assemblage
+35,ACB,92,375,Acropora Branching
+35,ACBD,42,375,Acropora Branching Dead
+35,ACD,0,375,Acropora Digitate
+35,ACE,4,375,Acropora Encrusting
+35,ACS,0,375,Acropora Submassive
+35,ACT,2,375,Acropora Tabular
+35,CA,0,375,Coraline Algae
+35,CB,67,375,Coral Branching
+35,CBD,8,375,Coral Branching Dead
+35,CE,0,375,Coral Encrusting
+35,CF,20,375,Coral Foliose
+35,CHL,0,375,Blue Coral
+35,CM,33,375,Coral Massive
+35,CME,0,375,Fire Coral
+35,CMR,7,375,Mushroom Coral
+35,CS,7,375,Coral Submassive
+35,CTU,18,375,Organ Pipe Coral
+35,DC,5,375,Dead Coral
+35,DCA,6,375,Dead Coral with Algae
+35,HA,0,375,Halimeda Algae
+35,MA,3,375,Macroalgae
+35,OT,1,375,Others
+35,R,40,375,Rubble
+35,RCK,3,375,Rock
+35,S,14,375,Sand
+35,SC,0,375,Soft coral
+35,SI,1,375,Silt
+35,SP,2,375,Sponge
+35,TA,0,375,Turf Algae
+35,ZO,0,375,Zoanthids
+36,AA,0,375,Algal Assemblage
+36,ACB,2,375,Acropora Branching
+36,ACBD,0,375,Acropora Branching Dead
+36,ACD,0,375,Acropora Digitate
+36,ACE,0,375,Acropora Encrusting
+36,ACS,0,375,Acropora Submassive
+36,ACT,4,375,Acropora Tabular
+36,CA,0,375,Coraline Algae
+36,CB,164,375,Coral Branching
+36,CBD,0,375,Coral Branching Dead
+36,CE,17,375,Coral Encrusting
+36,CF,20,375,Coral Foliose
+36,CHL,0,375,Blue Coral
+36,CM,36,375,Coral Massive
+36,CME,0,375,Fire Coral
+36,CMR,1,375,Mushroom Coral
+36,CS,2,375,Coral Submassive
+36,CTU,0,375,Organ Pipe Coral
+36,DC,34,375,Dead Coral
+36,DCA,0,375,Dead Coral with Algae
+36,HA,0,375,Halimeda Algae
+36,MA,0,375,Macroalgae
+36,OT,0,375,Others
+36,R,57,375,Rubble
+36,RCK,5,375,Rock
+36,S,12,375,Sand
+36,SC,3,375,Soft coral
+36,SI,0,375,Silt
+36,SP,0,375,Sponge
+36,TA,18,375,Turf Algae
+36,ZO,0,375,Zoanthids
+37,AA,2,375,Algal Assemblage
+37,ACB,39,375,Acropora Branching
+37,ACBD,7,375,Acropora Branching Dead
+37,ACD,0,375,Acropora Digitate
+37,ACE,2,375,Acropora Encrusting
+37,ACS,0,375,Acropora Submassive
+37,ACT,1,375,Acropora Tabular
+37,CA,0,375,Coraline Algae
+37,CB,40,375,Coral Branching
+37,CBD,2,375,Coral Branching Dead
+37,CE,0,375,Coral Encrusting
+37,CF,3,375,Coral Foliose
+37,CHL,0,375,Blue Coral
+37,CM,26,375,Coral Massive
+37,CME,0,375,Fire Coral
+37,CMR,1,375,Mushroom Coral
+37,CS,0,375,Coral Submassive
+37,CTU,13,375,Organ Pipe Coral
+37,DC,6,375,Dead Coral
+37,DCA,6,375,Dead Coral with Algae
+37,HA,3,375,Halimeda Algae
+37,MA,3,375,Macroalgae
+37,OT,0,375,Others
+37,R,26,375,Rubble
+37,RCK,1,375,Rock
+37,S,151,375,Sand
+37,SC,41,375,Soft coral
+37,SI,0,375,Silt
+37,SP,0,375,Sponge
+37,TA,2,375,Turf Algae
+37,ZO,0,375,Zoanthids
+38,AA,1,375,Algal Assemblage
+38,ACB,65,375,Acropora Branching
+38,ACBD,7,375,Acropora Branching Dead
+38,ACD,0,375,Acropora Digitate
+38,ACE,4,375,Acropora Encrusting
+38,ACS,28,375,Acropora Submassive
+38,ACT,5,375,Acropora Tabular
+38,CA,3,375,Coraline Algae
+38,CB,83,375,Coral Branching
+38,CBD,14,375,Coral Branching Dead
+38,CE,0,375,Coral Encrusting
+38,CF,7,375,Coral Foliose
+38,CHL,0,375,Blue Coral
+38,CM,59,375,Coral Massive
+38,CME,0,375,Fire Coral
+38,CMR,1,375,Mushroom Coral
+38,CS,1,375,Coral Submassive
+38,CTU,29,375,Organ Pipe Coral
+38,DC,5,375,Dead Coral
+38,DCA,13,375,Dead Coral with Algae
+38,HA,0,375,Halimeda Algae
+38,MA,1,375,Macroalgae
+38,OT,0,375,Others
+38,R,8,375,Rubble
+38,RCK,3,375,Rock
+38,S,29,375,Sand
+38,SC,8,375,Soft coral
+38,SI,0,375,Silt
+38,SP,0,375,Sponge
+38,TA,1,375,Turf Algae
+38,ZO,0,375,Zoanthids
+39,AA,0,375,Algal Assemblage
+39,ACB,129,375,Acropora Branching
+39,ACBD,33,375,Acropora Branching Dead
+39,ACD,1,375,Acropora Digitate
+39,ACE,1,375,Acropora Encrusting
+39,ACS,28,375,Acropora Submassive
+39,ACT,2,375,Acropora Tabular
+39,CA,0,375,Coraline Algae
+39,CB,36,375,Coral Branching
+39,CBD,0,375,Coral Branching Dead
+39,CE,0,375,Coral Encrusting
+39,CF,12,375,Coral Foliose
+39,CHL,0,375,Blue Coral
+39,CM,33,375,Coral Massive
+39,CME,0,375,Fire Coral
+39,CMR,3,375,Mushroom Coral
+39,CS,1,375,Coral Submassive
+39,CTU,0,375,Organ Pipe Coral
+39,DC,4,375,Dead Coral
+39,DCA,15,375,Dead Coral with Algae
+39,HA,0,375,Halimeda Algae
+39,MA,1,375,Macroalgae
+39,OT,0,375,Others
+39,R,53,375,Rubble
+39,RCK,4,375,Rock
+39,S,18,375,Sand
+39,SC,0,375,Soft coral
+39,SI,0,375,Silt
+39,SP,1,375,Sponge
+39,TA,0,375,Turf Algae
+39,ZO,0,375,Zoanthids
+40,AA,0,375,Algal Assemblage
+40,ACB,133,375,Acropora Branching
+40,ACBD,15,375,Acropora Branching Dead
+40,ACD,0,375,Acropora Digitate
+40,ACE,0,375,Acropora Encrusting
+40,ACS,0,375,Acropora Submassive
+40,ACT,5,375,Acropora Tabular
+40,CA,0,375,Coraline Algae
+40,CB,102,375,Coral Branching
+40,CBD,8,375,Coral Branching Dead
+40,CE,0,375,Coral Encrusting
+40,CF,0,375,Coral Foliose
+40,CHL,0,375,Blue Coral
+40,CM,27,375,Coral Massive
+40,CME,0,375,Fire Coral
+40,CMR,0,375,Mushroom Coral
+40,CS,0,375,Coral Submassive
+40,CTU,0,375,Organ Pipe Coral
+40,DC,20,375,Dead Coral
+40,DCA,0,375,Dead Coral with Algae
+40,HA,51,375,Halimeda Algae
+40,MA,0,375,Macroalgae
+40,OT,0,375,Others
+40,R,0,375,Rubble
+40,RCK,0,375,Rock
+40,S,10,375,Sand
+40,SC,0,375,Soft coral
+40,SI,0,375,Silt
+40,SP,0,375,Sponge
+40,TA,0,375,Turf Algae
+40,ZO,4,375,Zoanthids
+41,AA,0,375,Algal Assemblage
+41,ACB,18,375,Acropora Branching
+41,ACBD,3,375,Acropora Branching Dead
+41,ACD,0,375,Acropora Digitate
+41,ACE,0,375,Acropora Encrusting
+41,ACS,0,375,Acropora Submassive
+41,ACT,3,375,Acropora Tabular
+41,CA,0,375,Coraline Algae
+41,CB,83,375,Coral Branching
+41,CBD,12,375,Coral Branching Dead
+41,CE,0,375,Coral Encrusting
+41,CF,0,375,Coral Foliose
+41,CHL,0,375,Blue Coral
+41,CM,50,375,Coral Massive
+41,CME,0,375,Fire Coral
+41,CMR,0,375,Mushroom Coral
+41,CS,0,375,Coral Submassive
+41,CTU,0,375,Organ Pipe Coral
+41,DC,19,375,Dead Coral
+41,DCA,0,375,Dead Coral with Algae
+41,HA,121,375,Halimeda Algae
+41,MA,0,375,Macroalgae
+41,OT,0,375,Others
+41,R,3,375,Rubble
+41,RCK,0,375,Rock
+41,S,41,375,Sand
+41,SC,22,375,Soft coral
+41,SI,0,375,Silt
+41,SP,0,375,Sponge
+41,TA,0,375,Turf Algae
+41,ZO,0,375,Zoanthids
+42,AA,0,375,Algal Assemblage
+42,ACB,6,375,Acropora Branching
+42,ACBD,0,375,Acropora Branching Dead
+42,ACD,0,375,Acropora Digitate
+42,ACE,0,375,Acropora Encrusting
+42,ACS,1,375,Acropora Submassive
+42,ACT,1,375,Acropora Tabular
+42,CA,0,375,Coraline Algae
+42,CB,30,375,Coral Branching
+42,CBD,23,375,Coral Branching Dead
+42,CE,4,375,Coral Encrusting
+42,CF,0,375,Coral Foliose
+42,CHL,0,375,Blue Coral
+42,CM,106,375,Coral Massive
+42,CME,0,375,Fire Coral
+42,CMR,0,375,Mushroom Coral
+42,CS,0,375,Coral Submassive
+42,CTU,0,375,Organ Pipe Coral
+42,DC,26,375,Dead Coral
+42,DCA,0,375,Dead Coral with Algae
+42,HA,9,375,Halimeda Algae
+42,MA,53,375,Macroalgae
+42,OT,0,375,Others
+42,R,11,375,Rubble
+42,RCK,0,375,Rock
+42,S,86,375,Sand
+42,SC,19,375,Soft coral
+42,SI,0,375,Silt
+42,SP,0,375,Sponge
+42,TA,0,375,Turf Algae
+42,ZO,0,375,Zoanthids
+43,AA,0,375,Algal Assemblage
+43,ACB,0,375,Acropora Branching
+43,ACBD,2,375,Acropora Branching Dead
+43,ACD,0,375,Acropora Digitate
+43,ACE,0,375,Acropora Encrusting
+43,ACS,6,375,Acropora Submassive
+43,ACT,0,375,Acropora Tabular
+43,CA,0,375,Coraline Algae
+43,CB,32,375,Coral Branching
+43,CBD,2,375,Coral Branching Dead
+43,CE,2,375,Coral Encrusting
+43,CF,0,375,Coral Foliose
+43,CHL,0,375,Blue Coral
+43,CM,82,375,Coral Massive
+43,CME,0,375,Fire Coral
+43,CMR,0,375,Mushroom Coral
+43,CS,0,375,Coral Submassive
+43,CTU,0,375,Organ Pipe Coral
+43,DC,12,375,Dead Coral
+43,DCA,0,375,Dead Coral with Algae
+43,HA,107,375,Halimeda Algae
+43,MA,54,375,Macroalgae
+43,OT,0,375,Others
+43,R,3,375,Rubble
+43,RCK,0,375,Rock
+43,S,72,375,Sand
+43,SC,0,375,Soft coral
+43,SI,0,375,Silt
+43,SP,0,375,Sponge
+43,TA,0,375,Turf Algae
+43,ZO,1,375,Zoanthids
+44,AA,0,375,Algal Assemblage
+44,ACB,77,375,Acropora Branching
+44,ACBD,41,375,Acropora Branching Dead
+44,ACD,0,375,Acropora Digitate
+44,ACE,0,375,Acropora Encrusting
+44,ACS,0,375,Acropora Submassive
+44,ACT,7,375,Acropora Tabular
+44,CA,0,375,Coraline Algae
+44,CB,157,375,Coral Branching
+44,CBD,22,375,Coral Branching Dead
+44,CE,0,375,Coral Encrusting
+44,CF,0,375,Coral Foliose
+44,CHL,0,375,Blue Coral
+44,CM,52,375,Coral Massive
+44,CME,0,375,Fire Coral
+44,CMR,1,375,Mushroom Coral
+44,CS,1,375,Coral Submassive
+44,CTU,0,375,Organ Pipe Coral
+44,DC,6,375,Dead Coral
+44,DCA,0,375,Dead Coral with Algae
+44,HA,0,375,Halimeda Algae
+44,MA,0,375,Macroalgae
+44,OT,0,375,Others
+44,R,0,375,Rubble
+44,RCK,0,375,Rock
+44,S,9,375,Sand
+44,SC,2,375,Soft coral
+44,SI,0,375,Silt
+44,SP,0,375,Sponge
+44,TA,0,375,Turf Algae
+44,ZO,0,375,Zoanthids
+45,AA,0,375,Algal Assemblage
+45,ACB,124,375,Acropora Branching
+45,ACBD,47,375,Acropora Branching Dead
+45,ACD,0,375,Acropora Digitate
+45,ACE,0,375,Acropora Encrusting
+45,ACS,3,375,Acropora Submassive
+45,ACT,7,375,Acropora Tabular
+45,CA,0,375,Coraline Algae
+45,CB,41,375,Coral Branching
+45,CBD,33,375,Coral Branching Dead
+45,CE,2,375,Coral Encrusting
+45,CF,7,375,Coral Foliose
+45,CHL,0,375,Blue Coral
+45,CM,25,375,Coral Massive
+45,CME,0,375,Fire Coral
+45,CMR,0,375,Mushroom Coral
+45,CS,2,375,Coral Submassive
+45,CTU,0,375,Organ Pipe Coral
+45,DC,18,375,Dead Coral
+45,DCA,0,375,Dead Coral with Algae
+45,HA,0,375,Halimeda Algae
+45,MA,25,375,Macroalgae
+45,OT,0,375,Others
+45,R,0,375,Rubble
+45,RCK,0,375,Rock
+45,S,34,375,Sand
+45,SC,3,375,Soft coral
+45,SI,0,375,Silt
+45,SP,0,375,Sponge
+45,TA,0,375,Turf Algae
+45,ZO,4,375,Zoanthids
+46,AA,0,372,Algal Assemblage
+46,ACB,29,372,Acropora Branching
+46,ACBD,4,372,Acropora Branching Dead
+46,ACD,0,372,Acropora Digitate
+46,ACE,0,372,Acropora Encrusting
+46,ACS,9,372,Acropora Submassive
+46,ACT,2,372,Acropora Tabular
+46,CA,0,372,Coraline Algae
+46,CB,73,372,Coral Branching
+46,CBD,7,372,Coral Branching Dead
+46,CE,0,372,Coral Encrusting
+46,CF,8,372,Coral Foliose
+46,CHL,0,372,Blue Coral
+46,CM,80,372,Coral Massive
+46,CME,0,372,Fire Coral
+46,CMR,2,372,Mushroom Coral
+46,CS,6,372,Coral Submassive
+46,CTU,0,372,Organ Pipe Coral
+46,DC,1,372,Dead Coral
+46,DCA,27,372,Dead Coral with Algae
+46,HA,2,372,Halimeda Algae
+46,MA,2,372,Macroalgae
+46,OT,0,372,Others
+46,R,55,372,Rubble
+46,RCK,7,372,Rock
+46,S,55,372,Sand
+46,SC,0,372,Soft coral
+46,SI,0,372,Silt
+46,SP,1,372,Sponge
+46,TA,2,372,Turf Algae
+46,ZO,0,372,Zoanthids
+47,AA,0,375,Algal Assemblage
+47,ACB,42,375,Acropora Branching
+47,ACBD,0,375,Acropora Branching Dead
+47,ACD,0,375,Acropora Digitate
+47,ACE,11,375,Acropora Encrusting
+47,ACS,0,375,Acropora Submassive
+47,ACT,1,375,Acropora Tabular
+47,CA,0,375,Coraline Algae
+47,CB,92,375,Coral Branching
+47,CBD,0,375,Coral Branching Dead
+47,CE,6,375,Coral Encrusting
+47,CF,11,375,Coral Foliose
+47,CHL,0,375,Blue Coral
+47,CM,22,375,Coral Massive
+47,CME,0,375,Fire Coral
+47,CMR,2,375,Mushroom Coral
+47,CS,35,375,Coral Submassive
+47,CTU,0,375,Organ Pipe Coral
+47,DC,22,375,Dead Coral
+47,DCA,0,375,Dead Coral with Algae
+47,HA,0,375,Halimeda Algae
+47,MA,0,375,Macroalgae
+47,OT,0,375,Others
+47,R,68,375,Rubble
+47,RCK,2,375,Rock
+47,S,52,375,Sand
+47,SC,0,375,Soft coral
+47,SI,0,375,Silt
+47,SP,0,375,Sponge
+47,TA,9,375,Turf Algae
+47,ZO,0,375,Zoanthids
+48,AA,0,375,Algal Assemblage
+48,ACB,4,375,Acropora Branching
+48,ACBD,4,375,Acropora Branching Dead
+48,ACD,0,375,Acropora Digitate
+48,ACE,0,375,Acropora Encrusting
+48,ACS,0,375,Acropora Submassive
+48,ACT,2,375,Acropora Tabular
+48,CA,0,375,Coraline Algae
+48,CB,234,375,Coral Branching
+48,CBD,59,375,Coral Branching Dead
+48,CE,0,375,Coral Encrusting
+48,CF,0,375,Coral Foliose
+48,CHL,0,375,Blue Coral
+48,CM,12,375,Coral Massive
+48,CME,0,375,Fire Coral
+48,CMR,0,375,Mushroom Coral
+48,CS,5,375,Coral Submassive
+48,CTU,1,375,Organ Pipe Coral
+48,DC,1,375,Dead Coral
+48,DCA,8,375,Dead Coral with Algae
+48,HA,0,375,Halimeda Algae
+48,MA,0,375,Macroalgae
+48,OT,0,375,Others
+48,R,35,375,Rubble
+48,RCK,0,375,Rock
+48,S,8,375,Sand
+48,SC,0,375,Soft coral
+48,SI,0,375,Silt
+48,SP,2,375,Sponge
+48,TA,0,375,Turf Algae
+48,ZO,0,375,Zoanthids
+49,AA,0,375,Algal Assemblage
+49,ACB,159,375,Acropora Branching
+49,ACBD,15,375,Acropora Branching Dead
+49,ACD,0,375,Acropora Digitate
+49,ACE,0,375,Acropora Encrusting
+49,ACS,30,375,Acropora Submassive
+49,ACT,1,375,Acropora Tabular
+49,CA,0,375,Coraline Algae
+49,CB,72,375,Coral Branching
+49,CBD,7,375,Coral Branching Dead
+49,CE,9,375,Coral Encrusting
+49,CF,23,375,Coral Foliose
+49,CHL,0,375,Blue Coral
+49,CM,12,375,Coral Massive
+49,CME,0,375,Fire Coral
+49,CMR,1,375,Mushroom Coral
+49,CS,3,375,Coral Submassive
+49,CTU,0,375,Organ Pipe Coral
+49,DC,2,375,Dead Coral
+49,DCA,0,375,Dead Coral with Algae
+49,HA,0,375,Halimeda Algae
+49,MA,8,375,Macroalgae
+49,OT,2,375,Others
+49,R,0,375,Rubble
+49,RCK,0,375,Rock
+49,S,29,375,Sand
+49,SC,0,375,Soft coral
+49,SI,0,375,Silt
+49,SP,0,375,Sponge
+49,TA,0,375,Turf Algae
+49,ZO,2,375,Zoanthids

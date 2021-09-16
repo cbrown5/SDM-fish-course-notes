@@ -1,0 +1,121 @@
+# JUST USE # to comment lines out like you would in R (if you want to change)
+
+# **/OLD/** means everything inside of all occurrences of OLD 
+# *.csv means everything that ends in .csv 
+# [] is any of these choices
+# note that .gitignore files are case sensitive
+
+#######################################
+######## Main files here ##############
+#######################################
+
+# Folders
+############
+**/[dD]ata/**
+**/[oO][lL][dD]/**
+**/[pP]rivate/**
+**/[sS]hared/**
+
+# DOCS
+##########
+#*.[hH][tT][mM][lL]
+#*.[pP][dD][fF]
+#*.[pP][pP][tT][xX]
+#*.[dD][oO][cC][xX]
+
+# Pictures
+############# 
+#*.[pP][nN][gG]
+#*.[jJ][pP][eE][gG]
+#*.[tT][iI][fF][fF]
+#*.[tT][iI][fF]
+
+# Standard Data files
+######################
+#*.[cC][sS][vV]
+#*.[xX][lL][sS][xX]
+#*.[tT][xX][tT]
+
+# Spatial files
+###############
+*.[sS][hH][xX]
+*.[cC][pP][gG]
+*.[dD][bB][fF]
+*.[pP][rR][jJ]
+*.[sS][bB][nN]
+*.[sS][bB][xX]
+*.[sS][hH][pP]
+*.[sS][hH][pP].[xX][mM][lL]
+*.[nN][cC]
+
+# R Data files
+##############
+*.[rR][dD][aA]
+*.[rR][dD][aA][tT][aA]
+*.[rR][dD][sS]
+
+# Video files
+##############
+*.[aA][vV][cC][hH][dD]
+*.[aA][vV][iI]
+*.[fF][lL][vV]
+*.[mM][kK][vV]
+*.[mM][oO][vV]
+*.[mM][pP]4
+*.[wW][eE][bB][mM]
+*.[wW][mM][vV]
+
+
+# Latex and markdown files
+##############
+*.[aA][uU][xX]
+*.[lL][oO][gG]
+*.[gG][zZ
+*.[tT][oO][cC]
+*.[oO][uU][tT]
+
+# Other
+##############
+*.DS_Store
+
+
+#########################
+# R files
+#########################
+
+# History files
+.Rhistory
+.Rapp.history
+
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+
+
+
+
