@@ -1,6 +1,6 @@
 ---
 title: "Current approaches to species distribution modelling with R"
-author: "CJ Brown"
+author: "CJ Brown (chris.brown@griffith.edu.au)"
 date: "20 Sept 2021"
 output: html_document
 ---
