@@ -1,0 +1,233 @@
+---
+title: "Introduction to data simulation in R"
+date: "16 September, 2021"
+output: 
+  html_document: 
+    theme: paper
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Dr Christina A Buelow, Griffith University](https://experts.griffith.edu.au/24225-christina-buelow)
+
+### Generating data to enhance our understanding
+
+It may seem surprising, even wrong, that making fake data is an important skill for quantitative ecologists.
+
+However, whether your work is mostly applied or theoretical, data simulation is an extremely useful tool.
+
+For instance, modellers love simulating data. Simulated data provides a **known truth**,  allowing us to test whether models are able to adequately represent an ecological pattern or process, if we provide them with real data.
+
+Remember, as George E.P. Box said, *'all models are wrong, but some are useful'*.
+
+Simulated data allows us to estimate just how wrong they are; how far model estimates are from the **known truth**. 
+
+If we have some understanding of the **data generating process**, i.e., the causal mechanism(s) that produce the data, we can simulate it. Data can be simulated this way either deterministically or stochastically (stochasticity = randomness). 
+
+Here we will focus on stochastic data simulation; using probability distributions to randomly generate data that approximates what we would expect in real life.
+
+Beyond giving us a better understanding of model adequacy, data simulation is also highly useful in applied settings (although it is generally under-utilised).
+
+For example, let's say you are an applied ecologist who wants to know whether the Marine Protected Area (MPA) you've just helped zone is doing its job - increasing fish biomass. 
+
+It might not seem like that hard of a task, just go out and do some sampling inside and outside the MPA - you'll find out the answer. But marine ecosystems, and fish populations in particular, are highly variable.  
+
+I once posited the idea of detecting 5% change in fish abundance, and a very smart marine ecologist I know, Prof R. Connolly, quickly disabused me of that notion, 'Tell him he's dreaming'. (I expect all Aussie's to understand this reference; I, at the time, did not.)
+
+We can use data simulation to determine how much sampling we'll need to do to detect a change in fish biomass inside vs. outside of the MPA, if there really is one (we call this 'power').
+ 
+### Stochastic simulation: knowing the probability of your data to randomly generate it
+
+*For a nice overview of the characteristics of different probability distributions, and how they they can be used by ecologists, check-out Ben Bolker's [book](https://www.amazon.com.au/Ecological-Models-Data-Benjamin-Bolker-ebook/dp/B005KLQY6I) 'Ecological Models and Data in R'. Here's an in image from Chapter 4:*
+
+![*Bolker: Ecological Models and Data in R*](distributions.png)
+
+To learn more about what probability distributons are available in R, and how to use them, try: 
+
+```{r}
+help.search('distribution')
+```
+
+Some things to consider when choosing a probability distribution to generate data that mimics the real-world are:
+
+- is the data continuous or discrete?
+- what do we expect the shape of the distribution to be? Symmetrical? Skewed?
+- are 0s and negative values acceptable?
+- how is the mean related to the variance?
+
+### Simulating fish **biomass** inside and outside of MPAs
+
+Fish biomass is a continuous variable and we don't expect any skew in the data, and we want to control both the mean and the variance. So in this case, we'll use a normal distribution to do the simulation. 
+
+```{r}
+
+library(ggplot2)
+library(patchwork)
+library(dplyr)
+library(purrr)
+
+# first set up parameters for our data simulation
+
+mu.in <- 100 # mean biomass inside MPA
+mu.out <- 90 # mean biomass outside MPA
+
+sd.in <- 10 # standard deviation of biomass inside MPA
+sd.out <- 10 # standard deviation of biomass outside MPA
+
+n.samp <- 5 # number of samples (five biomass measurements inside the MPA, and 5 outside)
+
+# generate random numbers from a normal distribution with specified parameters (mean and sd)
+
+ndist.in <- rnorm(n = n.samp, mean = mu.in, sd = sd.in)
+ndist.out <- rnorm(n = n.samp, mean = mu.out, sd = sd.out)
+
+# plot 
+
+ggplot(data.frame(x = c(rep('In MPA', n.samp), rep('Out MPA', n.samp)), y = c(ndist.in, ndist.out))) +
+  geom_boxplot(aes(x = x, y = y, col = x)) +
+  geom_jitter(aes(x = x, y = y, col = x)) +
+  scale_color_manual(values = c('aquamarine', 'lightgoldenrod')) +
+  ylab('Biomass') +
+  xlab('') +
+  theme_classic() +
+  theme(legend.title = element_blank())
+```
+
+If these were boxplots of real data we had collected, we might be skeptical whether there is really a difference in biomass inside and outside the MPA. Although the median values of biomass are different, there is a lot of overlap in the range of the two distributions. 
+
+Or atleast that's what my plots show as I'm writing this. But, your results could look different from mine. Why is that?
+
+The 'rnorm' function is generating values from the normal distribution **randomly**. So you will get a slightly different result everytime you generate a set of values.
+
+If you want your simulation results to be reproducible, i.e., generate the same set of random numbers everytime, you need to 'set the seed' for R's random number generator.
+
+```{r}
+set.seed(123)
+```
+
+Okay, back to the results now - can we detect a statistically significant difference between fish biomass inside and outside MPAs from our simulated data? Let's see what a [model](https://lindeloev.github.io/tests-as-linear/) tell's us:
+
+```{r}
+ttest <- t.test(ndist.in, ndist.out)
+ttest # print the full summary
+ttest$p.value # select the p-value
+(mu.in - mu.out) - (ttest$estimate[[1]] - ttest$estimate[[2]]) # calculate bias between the truth and the model estimates
+```
+
+Since we've simulated this data, we know the *truth* - fish biomass is 10 units higher inside the MPA than outside. However, given our small sample size (n = 5) and high variability (sd = 10), we:
+
+ a) aren't able to detect a statistically significant difference in biomass inside and outside MPAs (p > 0.05)
+ b) our estimate of the effect size, i.e., the difference between biomass inside and outside MPAs, is biased.
+
+So how much more sampling would we need to be able to accurately detect a difference in fish biomass inside and outside the MPA, i.e., have adequate statistical power? More data simulation will tell us.
+
+```{r}
+
+# create a function to simulate data from a normal distribution inside and outside MPAs, run a t-test, extract p-values and calculate bias
+
+dat.sim <- function(n.obs, mu.in, mu.out, sd.in, sd.out){
+  obs.in <- rnorm(n.obs, mu.in, sd.out)
+  obs.out <- rnorm(n.obs, mu.out, sd.out)
+  ttest <- t.test(obs.in, obs.out)
+  results.sim <- list(n = n.obs, p = ttest$p.value, bias = (mu.in - mu.out) - (ttest$estimate[[1]] - ttest$estimate[[2]]))
+}
+
+# generate data under different levels of sampling
+
+n.scenario <- 5:30 # number of biomass measurements inside and outside MPAs varies from five to 30
+
+nsims <- 500 # to calcaulate power, we want to simulate 500 datasets under each scenario and calculate the proportion of times we're able to detect a statistically significant effect (p < 0.05)
+
+# loop throught the scenarios, store results in a list
+
+stor <- list() # list for storing results from loop
+
+for(i in seq_along(n.scenario)){
+stor[[i]] <- map_df(1:nsims, ~dat.sim(n.obs = n.scenario[[i]], mu.in = 100, mu.out = 90, sd.in = 10, sd.out = 10))
+}
+
+# bind list into a single results dataframe
+
+results <- do.call(rbind, stor)
+
+# calculate power and median bias across 500 simulated datasets
+
+summary <- results %>% 
+  mutate(detect = ifelse(p < 0.05, 1, 0)) %>% 
+  group_by(n) %>% 
+  summarise(Power = sum(detect)/nsims, 
+         Bias = median(abs(bias)))
+
+# plot
+
+a <- ggplot(summary) +
+  geom_point(aes(x = n, y = Power)) +
+  xlab('Sampling effort') +
+  theme_classic()
+
+b <- ggplot(summary) +
+  geom_point(aes(x = n, y =Bias)) +
+  xlab('Sampling effort') +
+  theme_classic()
+
+a + b
+```
+
+What other scenarios could you try? What if we expect the variability of biomass measurements to be higher outside the MPA rather inside, because there is more disturbance from shipping traffic?
+
+### Simulating fish **abundance** inside and outside of MPAs
+
+What if we also want to know whether fish abundance differs inside and outside of MPAs? Can we use the same approach? 
+
+Fish counts are a discrete variable, not a continuous variable. So we'll need to use a different probability distribution. One commonly used for count data is the poisson distribution. Unlike the normal distribution, the poisson distribution has only one parameter called *lambda* for both the mean and the variance (it assumes that mean = variance). Also, it only generates positive integers (not negatives). This is good for us, we can't have negative fish.
+
+Let's try it.
+
+```{r}
+
+# first set up parameters for our data simulation
+
+lambda.in <- 100 # mean number of fish inside MPA
+lambda.out <- 90 # mean number outside MPA
+
+n.samp <- 5 # number of samples (five abundance measurements inside the MPA, and 5 outside)
+
+# generate random numbers from the poisson distribution with paramater lambda
+
+ndist.in <- rpois(n = n.samp, lambda = lambda.in)
+ndist.out <- rpois(n = n.samp, lambda = lambda.out)
+
+# plot 
+
+ggplot(data.frame(x = c(rep('In MPA', n.samp), rep('Out MPA', n.samp)), y = c(ndist.in, ndist.out))) +
+  geom_boxplot(aes(x = x, y = y, col = x)) +
+  geom_jitter(aes(x = x, y = y, col = x)) +
+  scale_color_manual(values = c('aquamarine', 'lightgoldenrod')) +
+  ylab('Fish abundance') +
+  xlab('') +
+  theme_classic() +
+  theme(legend.title = element_blank())
+
+#  can we detect a statistically significant difference in fish abundance? 
+
+ttest <- t.test(ndist.in, ndist.out)
+ttest # print the full summary
+ttest$p.value # select the p-value
+(mu.in - mu.out) - (ttest$estimate[[1]] - ttest$estimate[[2]]) # calculate bias between the truth and the model estimates
+```
+
+With n = 5 it doesn't look like we'll be able to accurately detect an effect. Try running the power analysis on the fish counts to determine how much more sampling is needed.
+
+### Wrapping up
+
+This was a **very** brief introduction to data simulation in R. But really, the possibilities are only limited to the interesting questions you can think up.
+
+More complex simulation problems involve simulating spatio-temporal patterns, the effects of environmental covariates, species interactions, etc...
+
+I still have a lot to learn about data simulation, but wish I had started learning sooner. Hope this inspires you to do the same.
