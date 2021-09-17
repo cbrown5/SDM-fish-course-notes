@@ -1,9 +1,10 @@
 # Current approaches to species distribution modelling with R
 
-[Chris Brown](https://experts.griffith.edu.au/7867-chris-brown)
+[Chris Brown](https://experts.griffith.edu.au/7867-chris-brown)  
+
 Welcome to our "Current approaches to species distribution modelling with R" R course site. This course was run for the World Fisheries Congress 2021, but all the course materials are freely available. Below are instructions for getting setup or jump straight to the notes and data.
 
-Thanks to Dr Christina Buelow for contributing her introduction to simulating data. 
+Thanks to Dr Christina Buelow for contributing her introduction to simulating data.
 
 [Check out the conservation hackers site for upcoming online courses](https://www.conservationhackers.org/courses)
 
